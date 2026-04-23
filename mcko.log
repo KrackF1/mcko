@@ -1,0 +1,1187 @@
+2026-04-23 23:38:44 [WATCHDOG] Watchdog started (PID 5481)
+2026-04-23 23:38:44 [WATCHDOG] Starting main.py
+2026-04-23 23:38:44,154 [INFO] mcko: Logger initialized, log file: /mnt/hgfs/shareWM/mcko/mcko.log
+2026-04-23 23:38:44,324 [INFO] mcko: MCKO starting up
+2026-04-23 23:38:44,325 [INFO] mcko: SIGHUP ignored — terminal close will not stop MCKO
+2026-04-23 23:38:44,326 [INFO] mcko: Loading configuration from .env
+2026-04-23 23:38:44,328 [INFO] mcko: Loaded .env from: /mnt/hgfs/shareWM/mcko/.env (override=False)
+2026-04-23 23:38:44,328 [INFO] mcko: Normalizing OPENROUTER_API_KEY from environment
+2026-04-23 23:38:44,329 [INFO] mcko: OPENROUTER_API_KEY decoded from base64
+2026-04-23 23:38:44,330 [INFO] mcko: Primary API key loaded: starts_with=sk-or-v1, ends_with=c599, length=73
+2026-04-23 23:38:44,330 [INFO] mcko: Config loaded: hotkey_window=<ctrl>+<space>, hotkey_show=<ctrl>+<shift>+<space>, hotkey_clipboard=<ctrl>+<alt>+<space>, hotkey_screenshot=<ctrl>+<shift>+s, kimi=moonshotai/kimi-k2.6, qwen=qwen/qwen2.5-vl-72b-instruct, llama=meta-llama/llama-4-maverick
+2026-04-23 23:38:44,331 [INFO] mcko.geometry_solver: GeometryPhotoSolver initialized: kimi=moonshotai/kimi-k2.6 qwen=qwen/qwen2.5-vl-72b-instruct llama=meta-llama/llama-4-maverick
+2026-04-23 23:38:44,331 [INFO] mcko.session: Session initialized
+2026-04-23 23:38:44,332 [INFO] mcko: Core components initialized
+2026-04-23 23:38:44,444 [INFO] mcko.window: overrideredirect=True
+2026-04-23 23:38:44,465 [INFO] mcko.input_field: InputField initialized
+2026-04-23 23:38:44,468 [INFO] mcko.chat_view: ChatView initialized
+2026-04-23 23:38:44,469 [INFO] mcko.window: ChatWindow created (hidden)
+2026-04-23 23:38:44,470 [INFO] mcko: ChatWindow created
+2026-04-23 23:38:44,470 [INFO] mcko.hotkeys: HotkeyManager initialized: window=<ctrl>+<space>, show=<ctrl>+<shift>+<space>, clipboard=<ctrl>+<alt>+<space>, screenshot=<ctrl>+<shift>+s
+2026-04-23 23:38:44,471 [INFO] mcko.hotkeys: Registering hotkeys: ['<ctrl>+<space>', '<ctrl>+<shift>+<space>', '<ctrl>+<alt>+<space>', '<ctrl>+<shift>+s']
+2026-04-23 23:38:44,472 [INFO] mcko.hotkeys: Hotkey listener started (thread: hotkey-listener)
+2026-04-23 23:38:44,474 [INFO] mcko: HotkeyManager started
+2026-04-23 23:38:44,474 [INFO] mcko: All components initialized, entering main loop
+2026-04-23 23:38:48,707 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:38:48,708 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:38:48,709 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:38:48,830 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:38:48,831 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:38:48,832 [INFO] mcko.window: ChatWindow positioned bottom-left: +0+904
+2026-04-23 23:38:48,838 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:38:48,839 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:38:48,876 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:38:48,996 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:38:50,960 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:38:50,961 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:38:50,962 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:38:51,083 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:38:51,084 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:38:51,716 [INFO] mcko.hotkeys: Hotkey fired: SCREENSHOT — <ctrl>+<shift>+s
+2026-04-23 23:38:51,717 [INFO] mcko: Screenshot hotkey triggered
+2026-04-23 23:38:51,724 [INFO] mcko.screenshot: Taking screenshot, platform=linux
+2026-04-23 23:38:51,805 [INFO] mcko.screenshot: Screenshot resized: 1621x992 → 1280x783
+2026-04-23 23:38:51,868 [INFO] mcko.screenshot: Screenshot captured: 1280x783, 136642 bytes
+2026-04-23 23:38:51,869 [INFO] mcko: Screenshot ready (136642 bytes), inserting into input field
+2026-04-23 23:38:51,871 [INFO] mcko.window: Inserting image into hidden window without changing visibility
+2026-04-23 23:38:51,871 [INFO] mcko.input_field: Image label inserted: [added pic1], size=136642 bytes
+2026-04-23 23:38:52,182 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:38:52,183 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.465s ago
+2026-04-23 23:38:52,185 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:38:52,185 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.468s ago
+2026-04-23 23:38:53,299 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:38:53,300 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:38:53,301 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:38:53,302 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:38:53,302 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:38:53,303 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:38:53,304 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:38:53,305 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:38:53,305 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:38:53,342 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:38:53,465 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:38:58,294 [INFO] mcko.input_field: Image label deleted: pic1
+2026-04-23 23:38:59,019 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:38:59,020 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:38:59,021 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:38:59,022 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:38:59,023 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:38:59,024 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:38:59,024 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:38:59,025 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:38:59,061 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:38:59,142 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:38:59,143 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:39:03,088 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:03,089 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:03,090 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:03,091 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:03,091 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:03,092 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:39:03,093 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:39:03,096 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:03,096 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:03,132 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:03,254 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:04,047 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:04,048 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:04,049 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:04,049 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:04,050 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:04,051 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:39:04,052 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:04,053 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:04,088 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:04,169 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:39:04,170 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:39:04,615 [INFO] mcko.hotkeys: Hotkey fired: SCREENSHOT — <ctrl>+<shift>+s
+2026-04-23 23:39:04,616 [INFO] mcko: Screenshot hotkey triggered
+2026-04-23 23:39:04,617 [INFO] mcko.screenshot: Taking screenshot, platform=linux
+2026-04-23 23:39:04,659 [INFO] mcko.screenshot: Screenshot resized: 1621x992 → 1280x783
+2026-04-23 23:39:04,728 [INFO] mcko.screenshot: Screenshot captured: 1280x783, 176664 bytes
+2026-04-23 23:39:04,729 [INFO] mcko: Screenshot ready (176664 bytes), inserting into input field
+2026-04-23 23:39:04,730 [INFO] mcko.window: Inserting image into hidden window without changing visibility
+2026-04-23 23:39:04,730 [INFO] mcko.input_field: Image label inserted: [added pic2], size=176664 bytes
+2026-04-23 23:39:05,491 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:05,492 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.875s ago
+2026-04-23 23:39:05,492 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:05,493 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.876s ago
+2026-04-23 23:39:06,143 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:06,144 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:06,145 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:06,146 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:06,147 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:06,148 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:39:06,149 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:39:06,150 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:06,151 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:06,188 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:06,307 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:07,365 [INFO] mcko.input_field: Building content blocks from input field
+2026-04-23 23:39:07,366 [INFO] mcko.input_field: Content: 1 blocks
+2026-04-23 23:39:07,366 [INFO] mcko.input_field: Submit triggered by button: 1 blocks
+2026-04-23 23:39:07,368 [INFO] mcko.input_field: InputField cleared
+2026-04-23 23:39:07,368 [INFO] mcko.window: Submit from InputField: 1 content blocks
+2026-04-23 23:39:07,369 [INFO] mcko: User submitted message: 1 blocks
+2026-04-23 23:39:07,370 [INFO] mcko.chat_view: Appending user message: 13 chars
+2026-04-23 23:39:07,371 [INFO] mcko.session: User message added: content_length=1
+2026-04-23 23:39:07,371 [INFO] mcko.chat_view: Beginning assistant response block
+2026-04-23 23:39:07,372 [INFO] mcko: Starting response worker: has_images=True
+2026-04-23 23:39:07,373 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:39:07,373 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:39:07,383 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1280 height=783
+2026-04-23 23:39:07,384 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:39:07,385 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:39:20,252 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=12866
+2026-04-23 23:39:20,253 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1852 used_repair=False repair_model=-
+2026-04-23 23:39:20,254 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:39:47,346 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:47,347 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:47,348 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:47,349 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:47,349 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:47,350 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:39:47,351 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:47,352 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:47,388 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:47,468 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:39:47,469 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:39:48,016 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:48,017 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:48,018 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:48,018 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:48,019 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:48,020 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:39:48,021 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:39:48,022 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:48,023 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:48,059 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:48,180 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:48,524 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:48,525 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:48,526 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:48,527 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:48,527 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:48,528 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:39:48,529 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:48,530 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:48,566 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:48,648 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:39:48,648 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:39:48,962 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:48,962 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:48,963 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:48,964 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:48,965 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:48,966 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:39:48,967 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:39:48,968 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:48,968 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:49,005 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:49,124 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:49,321 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:39:49,321 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:39:49,323 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:39:49,323 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:39:49,324 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:39:49,325 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:39:49,326 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:39:49,326 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:39:49,363 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:39:49,443 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:39:49,444 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:39:54,541 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=34286
+2026-04-23 23:39:54,542 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3226: No JSON object found in response: The user wants me to solve a geometry problem from an image and return a strict JSON object.
+
+Let me analyze the problem:
+- Quadrilateral pyramid SABCD with vertex S.
+- Base ABCD is a right trapezoid 
+2026-04-23 23:39:54,545 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:39:54,545 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3226 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:39:54,546 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:40:06,623 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=12076
+2026-04-23 23:40:06,624 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=1397 used_repair=False repair_model=-
+2026-04-23 23:40:06,625 [INFO] mcko.geometry_solver: Consensus after llama: status=self_check score=0.000
+2026-04-23 23:40:06,626 [WARNING] mcko.geometry_solver: Rejecting verifier answer that does not look like a final answer: ['lines SA and AB', 'lines SD and CB']
+2026-04-23 23:40:06,627 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:40:06,627 [WARNING] mcko.geometry_solver: No safe final answer after consensus: status=self_check score=0.000 reasons=low diagram agreement, low givens agreement, answer mismatch, parser requested clarification, solver JSON repaired
+2026-04-23 23:40:06,628 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=59254
+2026-04-23 23:40:06,629 [INFO] mcko.session: Assistant message added: chars=30
+2026-04-23 23:40:06,630 [INFO] mcko: Streaming response complete: 30 chars (stream_error=False)
+2026-04-23 23:40:06,630 [INFO] mcko.chat_view: Assistant response block ended
+2026-04-23 23:40:28,320 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:40:28,321 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:40:28,322 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:40:28,322 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:40:28,323 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:40:28,324 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:40:28,324 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:40:28,325 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:40:28,326 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:40:28,362 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:40:28,483 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:03,458 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:03,459 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:41:03,460 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:41:03,460 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:03,461 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:41:03,462 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:41:03,463 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:41:03,463 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:41:03,501 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:03,581 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:41:03,582 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:41:04,643 [INFO] mcko.hotkeys: Hotkey fired: SCREENSHOT — <ctrl>+<shift>+s
+2026-04-23 23:41:04,644 [INFO] mcko: Screenshot hotkey triggered
+2026-04-23 23:41:04,644 [INFO] mcko.screenshot: Taking screenshot, platform=linux
+2026-04-23 23:41:04,679 [INFO] mcko.screenshot: Screenshot resized: 1621x992 → 1280x783
+2026-04-23 23:41:04,747 [INFO] mcko.screenshot: Screenshot captured: 1280x783, 163659 bytes
+2026-04-23 23:41:04,747 [INFO] mcko: Screenshot ready (163659 bytes), inserting into input field
+2026-04-23 23:41:04,749 [INFO] mcko.window: Inserting image into hidden window without changing visibility
+2026-04-23 23:41:04,750 [INFO] mcko.input_field: Image label inserted: [added pic3], size=163659 bytes
+2026-04-23 23:41:05,456 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:05,457 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.812s ago
+2026-04-23 23:41:05,458 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:05,458 [INFO] mcko: Suppressing window/show hotkey because screenshot hotkey fired 0.814s ago
+2026-04-23 23:41:06,610 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:06,611 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:41:06,612 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:41:06,612 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:06,613 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:41:06,614 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:41:06,615 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:41:06,617 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:41:06,618 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:41:06,655 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:06,776 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:07,506 [INFO] mcko.input_field: Building content blocks from input field
+2026-04-23 23:41:07,507 [INFO] mcko.input_field: Content: 1 blocks
+2026-04-23 23:41:07,507 [INFO] mcko.input_field: Submit triggered by button: 1 blocks
+2026-04-23 23:41:07,508 [INFO] mcko.input_field: InputField cleared
+2026-04-23 23:41:07,509 [INFO] mcko.window: Submit from InputField: 1 content blocks
+2026-04-23 23:41:07,509 [INFO] mcko: User submitted message: 1 blocks
+2026-04-23 23:41:07,510 [INFO] mcko.chat_view: Appending user message: 13 chars
+2026-04-23 23:41:07,511 [INFO] mcko.session: User message added: content_length=1
+2026-04-23 23:41:07,512 [INFO] mcko.chat_view: Beginning assistant response block
+2026-04-23 23:41:07,513 [INFO] mcko: Starting response worker: has_images=True
+2026-04-23 23:41:07,513 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:41:07,514 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:41:07,523 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1280 height=783
+2026-04-23 23:41:07,524 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:41:07,525 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:41:07,949 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:07,950 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:41:07,951 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:41:07,952 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:07,952 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:41:07,954 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:41:07,954 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:41:07,955 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:41:07,992 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:08,071 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:41:08,072 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:41:17,030 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=9504
+2026-04-23 23:41:17,031 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1212 used_repair=False repair_model=-
+2026-04-23 23:41:17,032 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:41:45,242 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:45,243 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:41:45,244 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:41:45,244 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:45,245 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:41:45,246 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:41:45,247 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:41:45,248 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:41:45,249 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:41:45,285 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:45,404 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:45,918 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:41:45,919 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:41:45,920 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:41:45,920 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:41:45,921 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:41:45,922 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:41:45,922 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:41:45,923 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:41:45,959 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:41:46,040 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:41:46,041 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:42:34,905 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:42:34,906 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:42:34,907 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:42:34,907 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:42:34,908 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:42:34,908 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:42:34,909 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:42:34,910 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:42:34,909 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:42:34,911 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:42:34,911 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:42:34,917 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:42:34,942 [INFO] mcko.clipboard: Clipboard type: image, size=133938 bytes
+2026-04-23 23:42:34,943 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:42:34,953 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:42:34,976 [INFO] mcko.clipboard: read_image: 133938 bytes
+2026-04-23 23:42:34,977 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:42:34,978 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:42:35,073 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:42:35,942 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:42:35,942 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:42:35,944 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:42:35,944 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:42:35,945 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:42:35,946 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:42:35,946 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:42:35,946 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:42:35,948 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:42:35,947 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:42:35,951 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:42:35,979 [INFO] mcko.clipboard: Clipboard type: image, size=133938 bytes
+2026-04-23 23:42:35,980 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:42:35,990 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:42:36,009 [INFO] mcko.clipboard: read_image: 133938 bytes
+2026-04-23 23:42:36,012 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:42:36,013 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:42:36,064 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:42:36,064 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:42:36,857 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=79823
+2026-04-23 23:42:36,857 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3714 used_repair=False repair_model=-
+2026-04-23 23:42:36,858 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:42:44,528 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=7669
+2026-04-23 23:42:44,529 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=863 used_repair=False repair_model=-
+2026-04-23 23:42:44,529 [INFO] mcko.geometry_solver: Consensus after llama: status=ambiguous score=0.225
+2026-04-23 23:42:44,530 [INFO] mcko.geometry_solver: Running self-check round: consensus_score=0.225
+reasons=low givens agreement, answer mismatch
+kimi_answer=
+llama_answer=6
+qwen_ambiguities=
+2026-04-23 23:42:44,531 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=4 max_tokens=1200
+2026-04-23 23:42:53,939 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=9407
+2026-04-23 23:42:53,940 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1300 used_repair=False repair_model=-
+2026-04-23 23:42:53,941 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:42:59,357 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:42:59,358 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:42:59,359 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:42:59,360 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:42:59,360 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:42:59,361 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:42:59,361 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:42:59,363 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:42:59,362 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:42:59,364 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:42:59,364 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:42:59,365 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:42:59,394 [INFO] mcko.clipboard: Clipboard type: image, size=133938 bytes
+2026-04-23 23:42:59,395 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:42:59,405 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:42:59,429 [INFO] mcko.clipboard: read_image: 133938 bytes
+2026-04-23 23:42:59,431 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:42:59,431 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:42:59,531 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:00,215 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:43:00,216 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:43:00,217 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:43:00,218 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:43:00,218 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:43:00,219 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:43:00,219 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:43:00,220 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:43:00,221 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:43:00,220 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:43:00,225 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:43:00,251 [INFO] mcko.clipboard: Clipboard type: image, size=133938 bytes
+2026-04-23 23:43:00,252 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:43:00,261 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:00,281 [INFO] mcko.clipboard: read_image: 133938 bytes
+2026-04-23 23:43:00,282 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:43:00,282 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:43:00,337 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:43:00,338 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:43:10,146 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=16204
+2026-04-23 23:43:10,147 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3904: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-04-23 23:43:10,149 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:43:10,149 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3904 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:43:10,150 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:43:16,239 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=6087
+2026-04-23 23:43:16,240 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=799 used_repair=False repair_model=-
+2026-04-23 23:43:16,240 [WARNING] mcko.geometry_solver: Rejecting verifier-only answer because primary solver did not provide a stable answer: status=ambiguous score=0.225 verifier_confidence=0.900
+2026-04-23 23:43:16,241 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:43:16,242 [INFO] mcko.geometry_solver: Using self-check answer because primary round did not produce a safe answer
+2026-04-23 23:43:16,242 [INFO] mcko.geometry_solver: Returning answer selected across primary/self-check rounds: 6
+2026-04-23 23:43:16,243 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=128729
+2026-04-23 23:43:16,244 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:43:16,246 [INFO] mcko.session: Assistant message added: chars=4
+2026-04-23 23:43:16,247 [INFO] mcko: Streaming response complete: 4 chars (stream_error=False)
+2026-04-23 23:43:16,246 [INFO] mcko.chat_view: Assistant response block ended
+2026-04-23 23:43:16,261 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1621 height=992
+2026-04-23 23:43:16,262 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:43:16,263 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:43:27,275 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=11011
+2026-04-23 23:43:27,276 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1251 used_repair=False repair_model=-
+2026-04-23 23:43:27,277 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:43:33,967 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:43:33,968 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:43:33,969 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:43:33,969 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:43:33,970 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:43:33,971 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:43:33,972 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:43:33,971 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:43:33,973 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:43:33,973 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:43:33,978 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:43:33,979 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:43:33,990 [INFO] mcko.clipboard: Clipboard type: text, size=46 chars
+2026-04-23 23:43:33,991 [INFO] mcko.scenario2: Clipboard content type: text
+2026-04-23 23:43:34,000 [INFO] mcko.clipboard: read_text: 46 chars
+2026-04-23 23:43:34,001 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:43:34,001 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=False
+2026-04-23 23:43:34,015 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:34,135 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:45,971 [INFO] mcko.hotkeys: Hotkey fired: SCREENSHOT — <ctrl>+<shift>+s
+2026-04-23 23:43:45,972 [INFO] mcko: Screenshot hotkey triggered
+2026-04-23 23:43:45,973 [INFO] mcko.screenshot: Taking screenshot, platform=linux
+2026-04-23 23:43:46,015 [INFO] mcko.screenshot: Screenshot resized: 1621x992 → 1280x783
+2026-04-23 23:43:46,082 [INFO] mcko.screenshot: Screenshot captured: 1280x783, 171555 bytes
+2026-04-23 23:43:46,082 [INFO] mcko: Screenshot ready (171555 bytes), inserting into input field
+2026-04-23 23:43:46,084 [INFO] mcko.input_field: Image label inserted: [added pic4], size=171555 bytes
+2026-04-23 23:43:49,548 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:43:49,549 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:43:49,550 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:43:49,550 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:43:49,551 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:43:49,552 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:43:49,552 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:43:49,553 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:43:49,554 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:43:49,554 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:43:49,559 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:43:49,572 [INFO] mcko.clipboard: Clipboard type: text, size=46 chars
+2026-04-23 23:43:49,573 [INFO] mcko.scenario2: Clipboard content type: text
+2026-04-23 23:43:49,581 [INFO] mcko.clipboard: read_text: 46 chars
+2026-04-23 23:43:49,582 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:43:49,583 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=False
+2026-04-23 23:43:49,595 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:49,670 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:43:49,671 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:43:49,754 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:43:49,755 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:43:49,756 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:43:49,757 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:43:49,757 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:43:49,758 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:43:49,758 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:43:49,760 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:43:49,759 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:43:49,761 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:43:49,765 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:43:49,766 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:43:49,781 [INFO] mcko.clipboard: Clipboard type: text, size=46 chars
+2026-04-23 23:43:49,782 [INFO] mcko.scenario2: Clipboard content type: text
+2026-04-23 23:43:49,793 [INFO] mcko.clipboard: read_text: 46 chars
+2026-04-23 23:43:49,794 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:43:49,794 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=False
+2026-04-23 23:43:49,803 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:49,923 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:43:51,266 [INFO] mcko.input_field: Building content blocks from input field
+2026-04-23 23:43:51,267 [INFO] mcko.input_field: Content: 1 blocks
+2026-04-23 23:43:51,267 [INFO] mcko.input_field: Submit triggered by button: 1 blocks
+2026-04-23 23:43:51,268 [INFO] mcko.input_field: InputField cleared
+2026-04-23 23:43:51,269 [INFO] mcko.window: Submit from InputField: 1 content blocks
+2026-04-23 23:43:51,269 [INFO] mcko: User submitted message: 1 blocks
+2026-04-23 23:43:51,270 [INFO] mcko.chat_view: Appending user message: 13 chars
+2026-04-23 23:43:51,271 [INFO] mcko.session: User message added: content_length=1
+2026-04-23 23:43:51,271 [INFO] mcko.chat_view: Beginning assistant response block
+2026-04-23 23:43:51,272 [INFO] mcko: Starting response worker: has_images=True
+2026-04-23 23:43:51,273 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:44:05,324 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=38046
+2026-04-23 23:44:05,325 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3214: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-04-23 23:44:05,326 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:44:05,327 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3214 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:44:05,328 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:44:14,356 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=9027
+2026-04-23 23:44:14,357 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=1161 used_repair=False repair_model=-
+2026-04-23 23:44:14,358 [INFO] mcko.geometry_solver: Consensus after llama: status=self_check score=0.000
+2026-04-23 23:44:14,358 [WARNING] mcko.geometry_solver: Rejecting verifier answer that does not look like a final answer: ['SA and AB', 'SD and CB']
+2026-04-23 23:44:14,359 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:44:14,360 [WARNING] mcko.geometry_solver: No safe final answer after consensus: status=self_check score=0.000 reasons=low diagram agreement, low givens agreement, answer mismatch, solver JSON repaired
+2026-04-23 23:44:14,360 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=99382
+2026-04-23 23:44:14,361 [INFO] mcko.clipboard: write_text: 30 chars
+2026-04-23 23:44:14,361 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:44:14,371 [INFO] mcko.scenario2: Geometry solver response written to clipboard
+2026-04-23 23:44:14,382 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1621 height=992
+2026-04-23 23:44:14,382 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:44:14,383 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:44:25,136 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=10751
+2026-04-23 23:44:25,137 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1365 used_repair=False repair_model=-
+2026-04-23 23:44:25,138 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:44:46,309 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:44:46,310 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:44:46,311 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:44:46,312 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:44:46,312 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:44:46,313 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:44:46,313 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:44:46,314 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:44:46,315 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:44:46,315 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:44:46,320 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:44:46,325 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:44:46,326 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:44:46,337 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:44:46,338 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:44:46,339 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:44:46,356 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:44:46,432 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:44:46,432 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:44:46,732 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:44:46,733 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:44:46,734 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:44:46,734 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:44:46,735 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:44:46,736 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:44:46,736 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:44:46,737 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:44:46,737 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:44:46,738 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:44:46,743 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:44:46,744 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:44:46,747 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:44:46,748 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:44:46,758 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:44:46,759 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:44:46,760 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:44:46,780 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:44:46,897 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:44:47,090 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:44:47,090 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:44:47,091 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:44:47,092 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:44:47,093 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:44:47,094 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:44:47,094 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:44:47,094 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:44:47,096 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:44:47,095 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:44:47,100 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:44:47,106 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:44:47,106 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:44:47,115 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:44:47,116 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:44:47,116 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:44:47,136 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:44:47,212 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:44:47,213 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:45:16,212 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:45:16,213 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:45:16,214 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:45:16,214 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:45:16,215 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:45:16,216 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:45:16,216 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:45:16,218 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:45:16,217 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:45:16,219 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:45:16,219 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:45:16,225 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:45:16,232 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:45:16,233 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:45:16,244 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:45:16,245 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:45:16,245 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:45:16,263 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:45:16,381 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:45:17,000 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:45:17,001 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:45:17,002 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:45:17,003 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:45:17,004 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:45:17,004 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:45:17,004 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:45:17,005 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:45:17,006 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:45:17,007 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:45:17,008 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:45:17,018 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:45:17,019 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:45:17,030 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:45:17,031 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:45:17,032 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:45:17,043 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:45:17,123 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:45:17,124 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:46:20,528 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:46:20,529 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:46:20,530 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:46:20,531 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:46:20,531 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:46:20,532 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:46:20,532 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:46:20,533 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:46:20,533 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:46:20,535 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:46:20,540 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:46:20,541 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:46:20,546 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:46:20,547 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:46:20,557 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:46:20,558 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:46:20,558 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:46:20,577 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:20,697 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:22,334 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:46:22,335 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:46:22,336 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:46:22,337 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:46:22,338 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:46:22,339 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:46:22,339 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:46:22,340 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:46:22,341 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:46:22,341 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:46:22,347 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:46:22,356 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:46:22,357 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:46:22,370 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:46:22,371 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:46:22,371 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:46:22,383 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:22,457 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:46:22,458 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:46:42,990 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:46:42,991 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:46:42,992 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:46:42,992 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:46:42,993 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:46:42,993 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:46:42,994 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:46:42,995 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:46:42,994 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:46:42,996 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:46:42,996 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:46:43,000 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:46:43,005 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:46:43,006 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:46:43,015 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:46:43,016 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:46:43,016 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:46:43,037 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:43,156 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:43,682 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:46:43,682 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:46:43,683 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:46:43,684 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:46:43,684 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:46:43,685 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:46:43,685 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:46:43,686 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:46:43,687 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:46:43,686 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:46:43,691 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:46:43,697 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:46:43,698 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:46:43,707 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:46:43,708 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:46:43,708 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:46:43,727 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:46:43,804 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:46:43,805 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:46:51,475 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=146336
+2026-04-23 23:46:51,476 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3144: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-04-23 23:46:51,477 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:46:51,478 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3144 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:46:51,479 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:47:01,041 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=9561
+2026-04-23 23:47:01,042 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=1150 used_repair=False repair_model=-
+2026-04-23 23:47:01,042 [INFO] mcko.geometry_solver: Consensus after llama: status=self_check score=0.000
+2026-04-23 23:47:01,043 [WARNING] mcko.geometry_solver: Rejecting verifier answer that does not look like a final answer: ['SA and AB', 'SD and CB']
+2026-04-23 23:47:01,044 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:47:01,044 [WARNING] mcko.geometry_solver: No safe final answer after consensus: status=self_check score=0.000 reasons=low diagram agreement, low givens agreement, answer mismatch, solver JSON repaired
+2026-04-23 23:47:01,045 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=265031
+2026-04-23 23:47:01,046 [INFO] mcko.clipboard: write_text: 30 chars
+2026-04-23 23:47:01,046 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:47:01,056 [INFO] mcko.scenario2: Geometry solver response written to clipboard
+2026-04-23 23:47:01,069 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1621 height=992
+2026-04-23 23:47:01,070 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:47:01,070 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:47:10,453 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:10,453 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:10,455 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:10,455 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:10,456 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:10,457 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:10,457 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:47:10,458 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:47:10,457 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:10,459 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:10,464 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:10,465 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:10,470 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:10,470 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:10,480 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:10,480 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:10,481 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:10,502 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:10,627 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:11,206 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:11,206 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:11,207 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:11,208 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:11,208 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:11,209 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:11,209 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:47:11,210 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:11,211 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:11,211 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:11,216 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:11,223 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:11,224 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:11,235 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:11,236 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:11,237 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:11,251 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:11,327 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:47:11,328 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:47:11,524 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:11,525 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:11,526 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:11,526 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:11,527 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:11,528 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:11,528 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:47:11,529 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:47:11,528 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:11,530 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:11,535 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:11,536 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:11,541 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:11,542 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:11,551 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:11,552 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:11,552 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:11,574 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:11,695 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:11,888 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:11,889 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:11,890 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:11,890 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:11,891 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:11,892 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:11,892 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:47:11,893 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:11,894 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:11,893 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:11,899 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:11,905 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:11,906 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:11,915 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:11,916 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:11,916 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:11,935 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:12,010 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:47:12,011 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:47:12,022 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=10950
+2026-04-23 23:47:12,023 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1615 used_repair=False repair_model=-
+2026-04-23 23:47:12,024 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:47:39,705 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=27680
+2026-04-23 23:47:39,706 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3652: No JSON object found in response: The user wants me to solve a geometry problem from an image and return a strict JSON object.
+
+Let me analyze the problem:
+- Pyramid SABCD with vertex S
+- Base ABCD is a right trapezoid with right angl
+2026-04-23 23:47:39,708 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:47:39,709 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3652 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:47:39,709 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:47:42,623 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=2913
+2026-04-23 23:47:42,624 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=1154 used_repair=False repair_model=-
+2026-04-23 23:47:42,625 [INFO] mcko.geometry_solver: Consensus after llama: status=self_check score=0.000
+2026-04-23 23:47:42,626 [WARNING] mcko.geometry_solver: Rejecting verifier answer that does not look like a final answer: ['SA and AB', 'SD and CB']
+2026-04-23 23:47:42,627 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:47:42,627 [WARNING] mcko.geometry_solver: No safe final answer after consensus: status=self_check score=0.000 reasons=low diagram agreement, low givens agreement, answer mismatch, parser requested clarification, solver JSON repaired
+2026-04-23 23:47:42,628 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=283196
+2026-04-23 23:47:42,629 [INFO] mcko.clipboard: write_text: 30 chars
+2026-04-23 23:47:42,629 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:47:42,640 [INFO] mcko.scenario2: Geometry solver response written to clipboard
+2026-04-23 23:47:42,653 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1621 height=992
+2026-04-23 23:47:42,654 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:47:42,655 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:47:47,721 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:47,722 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:47,723 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:47,724 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:47,724 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:47,725 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:47,725 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:47:47,727 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:47:47,726 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:47,728 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:47,734 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:47,735 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:47,739 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:47,740 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:47,752 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:47,752 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:47,753 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:47,772 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:47,895 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:48,506 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:48,507 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:48,508 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:48,509 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:48,509 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:48,510 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:48,511 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:47:48,511 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:48,513 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:48,512 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:48,519 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:48,526 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:48,527 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:48,538 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:48,539 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:48,539 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:48,555 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:48,629 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:47:48,630 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:47:48,850 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:48,851 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:48,852 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:48,853 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:48,853 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:48,854 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:48,854 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:47:48,856 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:47:48,855 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:48,857 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:48,857 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:48,863 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:48,869 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:48,869 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:48,880 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:48,880 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:48,881 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:48,900 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:49,019 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:49,136 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:49,137 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:49,138 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:49,139 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:49,139 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:49,140 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:49,141 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:47:49,141 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:49,142 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:49,142 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:49,148 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:49,155 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:49,156 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:49,167 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:49,168 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:49,168 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:49,185 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:49,259 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:47:49,259 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:47:49,362 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:47:49,363 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:47:49,364 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:47:49,365 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:47:49,365 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:47:49,366 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:47:49,366 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:47:49,368 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:47:49,367 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:47:49,369 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:47:49,374 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:47:49,376 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:47:49,381 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:47:49,382 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:47:49,395 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:47:49,396 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:47:49,397 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:47:49,412 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:49,532 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:47:53,395 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=10739
+2026-04-23 23:47:53,396 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1491 used_repair=False repair_model=-
+2026-04-23 23:47:53,397 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=3 max_tokens=1100
+2026-04-23 23:48:25,180 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:25,181 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:25,182 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:25,183 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:25,183 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:25,184 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:25,184 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:48:25,185 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:25,186 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:25,186 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:25,192 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:25,199 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:25,199 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:25,212 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:25,212 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:25,213 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:25,228 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:25,302 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:25,304 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:25,603 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:25,604 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:25,605 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:25,606 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:25,607 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:25,608 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:25,608 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:48:25,609 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:25,608 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:25,610 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:25,616 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:25,617 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:25,622 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:25,623 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:25,636 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:25,637 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:25,638 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:25,654 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:25,774 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:26,259 [INFO] mcko.geometry_solver: Task solver HTTP response: model=moonshotai/kimi-k2.6 attempt=1 status=200 elapsed_ms=32861
+2026-04-23 23:48:26,260 [WARNING] mcko.geometry_solver: Primary JSON parse failed for model=moonshotai/kimi-k2.6 chars=3390: No JSON object found in response: The user wants me to solve a geometry problem from an image and return a strict JSON object.
+
+Let me analyze the problem carefully.
+
+Problem statement (from image):
+- Дана четырёхугольная пирамида SAB
+2026-04-23 23:48:26,261 [INFO] mcko.geometry_solver: Local answer salvage succeeded: source_model=moonshotai/kimi-k2.6
+2026-04-23 23:48:26,261 [INFO] mcko.geometry_solver: Task JSON parsed: model=moonshotai/kimi-k2.6 chars=3390 used_repair=True repair_model=local_answer_salvage
+2026-04-23 23:48:26,262 [INFO] mcko.geometry_solver: Requesting task JSON: model=meta-llama/llama-4-maverick blocks=3 max_tokens=700
+2026-04-23 23:48:28,045 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:28,046 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:28,047 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:28,048 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:28,048 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:28,049 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:48:28,049 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:28,050 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:28,051 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:28,052 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:28,052 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:28,064 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:28,065 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:28,076 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:28,076 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:28,077 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:28,087 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:28,168 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:28,168 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:30,248 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:30,249 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:30,250 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:30,250 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:30,251 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:30,252 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:30,252 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:48:30,253 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:30,253 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:30,255 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:30,260 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:30,261 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:30,266 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:30,267 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:30,277 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:30,278 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:30,279 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:30,297 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:30,416 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:30,708 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:30,709 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:30,710 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:30,710 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:30,711 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:30,712 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:30,712 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:48:30,713 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:30,714 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:30,714 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:30,719 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:30,726 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:30,727 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:30,739 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:30,740 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:30,740 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:30,756 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:30,830 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:30,831 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:31,523 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:31,524 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:31,525 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:31,525 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:31,526 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:31,527 [INFO] mcko.hotkeys: Hotkey fired: CLIPBOARD — <ctrl>+<alt>+<space>
+2026-04-23 23:48:31,527 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:48:31,529 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:31,528 [INFO] mcko: Clipboard hotkey triggered
+2026-04-23 23:48:31,530 [INFO] mcko.scenario2: Clipboard hotkey handler started
+2026-04-23 23:48:31,538 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:31,539 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:31,544 [INFO] mcko.clipboard: Clipboard type: image, size=54 bytes
+2026-04-23 23:48:31,545 [INFO] mcko.scenario2: Clipboard content type: image
+2026-04-23 23:48:31,557 [INFO] mcko.clipboard: read_image: 54 bytes
+2026-04-23 23:48:31,557 [INFO] mcko.scenario2: Sending clipboard content to geometry solver
+2026-04-23 23:48:31,558 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:31,575 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:31,699 [INFO] mcko.window: Xlib XSetInputFocus done for wid=90177540
+2026-04-23 23:48:33,537 [INFO] mcko.window: Restart button clicked
+2026-04-23 23:48:33,544 [INFO] mcko.restart: Restart initiated: kill=/mnt/hgfs/shareWM/mcko/kill.sh, run=/mnt/hgfs/shareWM/mcko/run.sh
+2026-04-23 23:48:33,553 [INFO] mcko.restart: Restart subprocess launched (detached). Waiting to be killed by kill.sh.
+2026-04-23 23:48:34,404 [INFO] mcko.geometry_solver: Task solver HTTP response: model=meta-llama/llama-4-maverick attempt=1 status=200 elapsed_ms=8141
+2026-04-23 23:48:34,405 [INFO] mcko.geometry_solver: Task JSON parsed: model=meta-llama/llama-4-maverick chars=1258 used_repair=False repair_model=-
+2026-04-23 23:48:34,406 [INFO] mcko.geometry_solver: Consensus after llama: status=self_check score=0.000
+2026-04-23 23:48:34,406 [WARNING] mcko.geometry_solver: Rejecting verifier answer that does not look like a final answer: ['SA and AB', 'SD and CB']
+2026-04-23 23:48:34,407 [INFO] mcko.geometry_solver: Accepting verifier answer because local answer salvage conflicts with independent verifier
+2026-04-23 23:48:34,408 [WARNING] mcko.geometry_solver: No safe final answer after consensus: status=self_check score=0.000 reasons=low diagram agreement, low givens agreement, answer mismatch, parser requested clarification, solver JSON repaired
+2026-04-23 23:48:34,408 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=334125
+2026-04-23 23:48:34,409 [INFO] mcko.clipboard: write_text: 30 chars
+2026-04-23 23:48:34,409 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=False
+2026-04-23 23:48:34,414 [INFO] mcko.geometry_solver: Using text-only fast path via Kimi
+2026-04-23 23:48:34,415 [INFO] mcko.geometry_solver: Requesting task JSON: model=moonshotai/kimi-k2.6 blocks=1 max_tokens=700
+2026-04-23 23:48:34,419 [INFO] mcko.scenario2: Geometry solver response written to clipboard
+2026-04-23 23:48:37 [WATCHDOG] Watchdog started (PID 5809)
+2026-04-23 23:48:37 [WATCHDOG] Starting main.py
+2026-04-23 23:48:37,121 [INFO] mcko: Logger initialized, log file: /mnt/hgfs/shareWM/mcko/mcko.log
+2026-04-23 23:48:37,225 [INFO] mcko: MCKO starting up
+2026-04-23 23:48:37,225 [INFO] mcko: SIGHUP ignored — terminal close will not stop MCKO
+2026-04-23 23:48:37,226 [INFO] mcko: Loading configuration from .env
+2026-04-23 23:48:37,228 [INFO] mcko: Loaded .env from: /mnt/hgfs/shareWM/mcko/.env (override=False)
+2026-04-23 23:48:37,229 [INFO] mcko: Normalizing OPENROUTER_API_KEY from environment
+2026-04-23 23:48:37,229 [INFO] mcko: OPENROUTER_API_KEY decoded from base64
+2026-04-23 23:48:37,230 [INFO] mcko: Primary API key loaded: starts_with=sk-or-v1, ends_with=c599, length=73
+2026-04-23 23:48:37,230 [INFO] mcko: Config loaded: hotkey_window=<ctrl>+<space>, hotkey_show=<ctrl>+<shift>+<space>, hotkey_clipboard=<ctrl>+<alt>+<space>, hotkey_screenshot=<ctrl>+<shift>+s, kimi=moonshotai/kimi-k2.6, qwen=qwen/qwen2.5-vl-72b-instruct, llama=meta-llama/llama-4-maverick
+2026-04-23 23:48:37,231 [INFO] mcko.geometry_solver: GeometryPhotoSolver initialized: kimi=moonshotai/kimi-k2.6 qwen=qwen/qwen2.5-vl-72b-instruct llama=meta-llama/llama-4-maverick
+2026-04-23 23:48:37,232 [INFO] mcko.session: Session initialized
+2026-04-23 23:48:37,232 [INFO] mcko: Core components initialized
+2026-04-23 23:48:37,282 [INFO] mcko.window: overrideredirect=True
+2026-04-23 23:48:37,298 [INFO] mcko.input_field: InputField initialized
+2026-04-23 23:48:37,301 [INFO] mcko.chat_view: ChatView initialized
+2026-04-23 23:48:37,302 [INFO] mcko.window: ChatWindow created (hidden)
+2026-04-23 23:48:37,303 [INFO] mcko: ChatWindow created
+2026-04-23 23:48:37,303 [INFO] mcko.hotkeys: HotkeyManager initialized: window=<ctrl>+<space>, show=<ctrl>+<shift>+<space>, clipboard=<ctrl>+<alt>+<space>, screenshot=<ctrl>+<shift>+s
+2026-04-23 23:48:37,304 [INFO] mcko.hotkeys: Registering hotkeys: ['<ctrl>+<space>', '<ctrl>+<shift>+<space>', '<ctrl>+<alt>+<space>', '<ctrl>+<shift>+s']
+2026-04-23 23:48:37,306 [INFO] mcko.hotkeys: Hotkey listener started (thread: hotkey-listener)
+2026-04-23 23:48:37,307 [INFO] mcko: HotkeyManager started
+2026-04-23 23:48:37,308 [INFO] mcko: All components initialized, entering main loop
+2026-04-23 23:48:40,660 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:40,661 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:40,662 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:40,782 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:40,783 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:40,784 [INFO] mcko.window: ChatWindow positioned bottom-left: +0+904
+2026-04-23 23:48:40,791 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:40,791 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:40,827 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:40,951 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:40,954 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:40,954 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:40,956 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:41,076 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:41,077 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:41,196 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:41,197 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:41,198 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:41,318 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:41,319 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:41,322 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:41,323 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:41,359 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:41,476 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:41,538 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:41,539 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:41,540 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:41,661 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:41,662 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:42,002 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:42,002 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:42,003 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:42,124 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:42,125 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:42,128 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:42,129 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:42,165 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:42,285 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:42,342 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:42,343 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:42,344 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:42,464 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:42,465 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:44,493 [INFO] mcko.hotkeys: Hotkey fired: SCREENSHOT — <ctrl>+<shift>+s
+2026-04-23 23:48:44,494 [INFO] mcko: Screenshot hotkey triggered
+2026-04-23 23:48:44,497 [INFO] mcko.screenshot: Taking screenshot, platform=linux
+2026-04-23 23:48:44,571 [INFO] mcko.screenshot: Screenshot resized: 1621x992 → 1280x783
+2026-04-23 23:48:44,648 [INFO] mcko.screenshot: Screenshot captured: 1280x783, 161265 bytes
+2026-04-23 23:48:44,648 [INFO] mcko: Screenshot ready (161265 bytes), inserting into input field
+2026-04-23 23:48:44,650 [INFO] mcko.window: Inserting image into hidden window without changing visibility
+2026-04-23 23:48:44,650 [INFO] mcko.input_field: Image label inserted: [added pic1], size=161265 bytes
+2026-04-23 23:48:46,106 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:46,107 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:46,108 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:46,108 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:46,109 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:46,110 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:48:46,111 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:48:46,114 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:46,114 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:46,151 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:46,270 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:47,356 [INFO] mcko.input_field: Building content blocks from input field
+2026-04-23 23:48:47,357 [INFO] mcko.input_field: Content: 1 blocks
+2026-04-23 23:48:47,358 [INFO] mcko.input_field: Submit triggered by button: 1 blocks
+2026-04-23 23:48:47,358 [INFO] mcko.input_field: InputField cleared
+2026-04-23 23:48:47,359 [INFO] mcko.window: Submit from InputField: 1 content blocks
+2026-04-23 23:48:47,360 [INFO] mcko: User submitted message: 1 blocks
+2026-04-23 23:48:47,360 [INFO] mcko.chat_view: Appending user message: 13 chars
+2026-04-23 23:48:47,361 [INFO] mcko.session: User message added: content_length=1
+2026-04-23 23:48:47,362 [INFO] mcko.chat_view: Beginning assistant response block
+2026-04-23 23:48:47,363 [INFO] mcko: Starting response worker: has_images=True
+2026-04-23 23:48:47,363 [INFO] mcko.geometry_solver: Waiting for solver slot: has_images=True
+2026-04-23 23:48:47,364 [INFO] mcko.geometry_solver: Solver slot acquired: has_images=True
+2026-04-23 23:48:47,374 [INFO] mcko.geometry_solver: Preparing image variants: image=1 width=1280 height=783
+2026-04-23 23:48:47,374 [INFO] mcko.geometry_solver: Prepared request variants: image_count=1 auxiliary_crops=0
+2026-04-23 23:48:47,375 [INFO] mcko.geometry_solver: Requesting task JSON: model=qwen/qwen2.5-vl-72b-instruct blocks=3 max_tokens=1200
+2026-04-23 23:48:48,561 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:48:48,561 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:48:48,562 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:48:48,563 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:48:48,564 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:48:48,565 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:48:48,565 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:48:48,566 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:48:48,603 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:48:48,683 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:48:48,684 [INFO] mcko.window: ChatWindow hidden
+2026-04-23 23:48:57,022 [INFO] mcko.geometry_solver: Task solver HTTP response: model=qwen/qwen2.5-vl-72b-instruct attempt=1 status=200 elapsed_ms=9646
+2026-04-23 23:48:57,023 [INFO] mcko.geometry_solver: Task JSON parsed: model=qwen/qwen2.5-vl-72b-instruct chars=1242 used_repair=False repair_model=-
+2026-04-23 23:48:57,024 [INFO] mcko.geometry_solver: Returning exact-engine image answer after parser extraction: 80
+2026-04-23 23:48:57,025 [INFO] mcko.geometry_solver: Solve pipeline finished: has_images=True elapsed_ms=9661
+2026-04-23 23:48:57,027 [INFO] mcko.session: Assistant message added: chars=5
+2026-04-23 23:48:57,027 [INFO] mcko: Streaming response complete: 5 chars (stream_error=False)
+2026-04-23 23:48:57,027 [INFO] mcko.chat_view: Assistant response block ended
+2026-04-23 23:49:39,938 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:49:39,939 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:49:39,940 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:49:39,941 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:49:39,941 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:49:39,942 [INFO] mcko: Cancelled pending window toggle because SHOW hotkey fired (window was hidden)
+2026-04-23 23:49:39,943 [INFO] mcko.window: ChatWindow shown
+2026-04-23 23:49:39,946 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:49:39,947 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:49:39,983 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:49:40,103 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:49:41,284 [INFO] mcko.hotkeys: Hotkey fired: WINDOW (toggle) — <ctrl>+<space>
+2026-04-23 23:49:41,285 [INFO] mcko: Window hotkey dispatched to main thread (toggle)
+2026-04-23 23:49:41,286 [INFO] mcko: Scheduled window toggle in 120ms
+2026-04-23 23:49:41,286 [INFO] mcko.hotkeys: Hotkey fired: SHOW — <ctrl>+<shift>+<space>
+2026-04-23 23:49:41,287 [INFO] mcko: Show hotkey dispatched to main thread
+2026-04-23 23:49:41,288 [INFO] mcko: SHOW hotkey fired but window is visible — letting pending toggle proceed
+2026-04-23 23:49:41,288 [INFO] mcko.window: Tkinter focus_force called
+2026-04-23 23:49:41,289 [INFO] mcko.window: InputField focus scheduled
+2026-04-23 23:49:41,325 [INFO] mcko.window: Xlib XSetInputFocus done for wid=85983236
+2026-04-23 23:49:41,406 [INFO] mcko: Executing delayed window toggle
+2026-04-23 23:49:41,407 [INFO] mcko.window: ChatWindow hidden
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+2026-04-23 23:55:00 [WATCHDOG] main.py exited with code 1, restarting in 3s...
